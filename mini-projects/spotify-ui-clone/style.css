@@ -1,0 +1,409 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.6rem;
+}
+
+.sidebar{
+    background-color: black;
+    width: 340px;
+    border-radius: 0.7rem;
+    padding: 0.3rem;
+
+}
+
+.main-content{
+    background-color: rgb(17, 17, 17);
+    flex: 1;
+    border-radius: 0.7rem;
+    overflow: auto;
+    padding: 0 0.3rem 0.7rem 0.3rem;
+    
+}
+
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    padding: 0.3rem;
+   
+
+}
+
+.nav{
+    background-color: rgb(17, 17, 17);
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-option{
+    line-height: 40px;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option i{
+    font-size: 1.25rem;
+}
+
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.library{
+    background-color: rgb(17, 17, 17);
+    border-radius: 0.7rem;
+    height: 100%;
+    margin-top: 0.6rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.lib-icons i{
+    
+    opacity: 0.7;
+    margin: 0 1rem;
+}
+
+.lib-icons{
+    font-size: 1rem;
+    display: flex;
+
+}
+
+.lib-icons i:hover{
+    opacity: 1;
+}
+
+.box{
+    height: 8rem;
+    background-color: #1f1f1f;
+    border-radius: 0.7rem;
+    margin: 0.75rem 0;
+    padding: 0.75rem 1rem;
+}
+
+.box-1{
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0rem;
+}
+
+.box-2{
+    font-size: 0.85rem;
+    margin: 0.5rem;
+
+}
+
+.badge{
+    height: 2rem;
+    padding: 0.25rem 1.25rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 2.4rem;
+    margin: 0rem 0.75rem;
+    margin-top: 0.5rem;
+
+}
+
+.badge:hover{
+    scale: 1.1;
+}
+
+
+.sticky-nav{
+    background-color: rgb(17, 17, 17);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0;
+    z-index: 10;
+}
+
+.sticky-nav-icons{
+    margin-left: 0.6rem;
+}
+
+.sticky-nav-icons img{
+    opacity: 0.7;
+}
+
+.sticky-nav-icons img:hover{
+    scale: 1.1;
+    opacity: 1;
+}
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    margin-right:1.6rem;
+}
+
+.dark-badge{
+    background-color: black;
+    color: white;
+    scale: 1.1;
+}
+.dark-badge:hover{
+    scale: 1.2;
+}
+
+@media (max-width: 1000px) {
+    .hide{
+        display: none;
+    }
+    .sidebar{
+        width: 30%;
+    }
+    .lib-option a{
+        display: none;
+    }
+}
+
+@media (max-width: 680px) {
+    .hide1{
+        display: none;
+    }
+    .lib-icons{
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav-option a{
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .box{
+        display: none;
+    }
+    .sidebar{
+        width: 18%;
+    }
+}
+
+
+.card{
+    background-color: #1f1f1f;
+    width: 150px;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover{
+    box-shadow: 0 0 30px rgba(132, 130, 130, 0.577);
+    scale: 1.02;
+}
+
+.card-container{
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 0.7rem;
+}
+
+.card-title{
+    font-weight: 600;
+
+}
+
+.card-info{
+    opacity: 0.85;
+    font-size: 0.85rem;
+}
+
+.footer{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 80%;
+    height: 30%;
+    border-top: 1px white solid;
+    opacity: 0.5;
+}
+
+.music-player{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+.album{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alb-pic img{
+    height: 3.5rem;
+    border-radius: 0.2rem;
+    margin: 0 0.6rem;
+}
+
+.alb-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alb-icon1{
+    height: 1.3rem;
+    margin-left: 1.5rem;
+    opacity: 0.6;   
+}
+.alb-icon2{
+    height: 1.8rem;
+    margin-left: 1.5rem; 
+
+}
+
+.alb-h2{
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+.alb-title{
+    margin-left: 1.5rem;
+}
+
+.player{
+    width: 50%;
+
+}
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3rem 0;    
+}
+
+.controls{
+    width: 25%;
+    margin-left: 0.1rem;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.side-control-icons{
+    height: 1.3rem;
+    margin-left: 1.5rem;
+    opacity: 0.6;
+}
+.side-control-icons1{
+    height: 3rem;
+    margin-left: 1.5rem;
+    
+}
+
+.volume{
+    width: 40%;
+    margin: 0 3rem 0 0.2rem;
+    height: 0.25rem;
+
+}
+
+.control-icon{
+    height: 1rem;
+    margin: 0.1rem 1.5rem;
+    opacity: 0.7;
+}
+
+.control-icon:hover{
+    opacity: 1;
+    scale: 1.2;
+}
+
+.playback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3rem 0; 
+}
+
+.play-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+}
+.play-bar::-webkit-slider-thumb{
+    appearance: none;
+    background-color: white;
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 50%;
+    margin-top: -5px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.play-bar:hover::-webkit-slider-thumb{
+    opacity: 1;
+    
+}
+
+.play-bar::-webkit-slider-runnable-track{
+    background-color: rgba(152, 147, 147, 0.678);
+    border-radius: 2rem;
+    height: 0.2rem;
+
+}
+

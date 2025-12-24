@@ -1,0 +1,28 @@
+div{
+    height: 180px;
+    width: 50%;
+    background-color: rgb(224, 144, 157);
+
+    border: 5px solid rgb(85, 22, 21);
+    border-top-style: groove;
+    border-bottom-style: groove;
+
+    padding: 10px;
+    margin-bottom: 1px;
+    
+}
+
+h1{
+    width: 40% ;
+    border: 3px solid rgb(97, 6, 58);
+    background-color: crimson;
+}
+
+button{
+    border: 2px black solid;
+    background-color: rgb(224, 72, 161);
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 30px;
+
+}

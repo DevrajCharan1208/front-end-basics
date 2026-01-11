@@ -22,7 +22,7 @@ to improve understanding of real-world UI design.
 
 
 ## Live Demo
-[Spotify UI Clone](https://devrajcharan1208.github.io/front-end-basics/mini-projects/spotify-ui-clone/)
+Click here - [Spotify UI Clone](https://devrajcharan1208.github.io/front-end-basics/mini-projects/spotify-ui-clone/)
 
 ## Preview
 ![Spotify UI Clone](./screenshot.png)

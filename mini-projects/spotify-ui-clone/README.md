@@ -20,6 +20,10 @@ to improve understanding of real-world UI design.
 - Bottom music player UI
 - Responsive layout with hover effects
 
+
+## Live Demo
+![Spotify UI Clone](https://devrajcharan1208.github.io/front-end-basics/mini-projects/spotify-ui-clone/)
+
 ## Preview
 ![Spotify UI Clone](./screenshot.png)
 

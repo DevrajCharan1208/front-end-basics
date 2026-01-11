@@ -14,5 +14,7 @@ The goal of this repository is to:
 - `css-basics/` → Lecture-based CSS practice and assignments
 - `mini-projects/` → Small frontend projects applying learned concepts
 
-
+## How to View Projects
+Most projects can be opened directly by clicking their `index.html` file.
+Some projects are also hosted using GitHub Pages.
 

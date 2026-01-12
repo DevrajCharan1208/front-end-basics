@@ -18,3 +18,5 @@ The goal of this repository is to:
 Most projects can be opened directly by clicking their `index.html` file.
 Some projects are also hosted using GitHub Pages.
 
+##Preview project pages
+Click here - [Projects](https://devrajcharan1208.github.io/front-end-basics/)

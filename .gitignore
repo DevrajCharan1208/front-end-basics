@@ -1,0 +1,18 @@
+# Virtual environments
+venv/
+env/
+.env/
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# IDE
+.vscode/
+.idea/
+
+# Shortcut files
+*.lnk

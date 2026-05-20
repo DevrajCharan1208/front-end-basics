@@ -1,0 +1,11 @@
+.card-header{
+    font-weight: bold;
+}
+
+#headline{
+    font-weight: 400;
+}
+
+.cards{
+    padding: 12px 20px;
+}

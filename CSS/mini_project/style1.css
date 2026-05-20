@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;;
+}
+
+body{
+    background-image: url(photo.jpg);
+    background-size:cover;
+}
+
+.main_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar_menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.manau ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu ul li{
+    height: 30px;
+    width: 80px;
+}
